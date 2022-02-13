@@ -1,0 +1,43 @@
+baseurl = "https://tatties.github.io"
+title = "Sheena Cook"
+theme = "hugo-theme-cleanwhite-rsy"
+languageCode = "en-us"
+paginate = 5000 #frontpage pagination
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+unsafe = true
+
+[params]
+    header_image = "https://c1.staticflickr.com/1/65535/50900219048_fcb57e83d0_h.jpg"
+    title = "Musings, mud and minor melancholy"
+    slogan = " by Sheena"
+    SEOTitle = "Rich Youngkin Blog"
+    keyword = "Rich, Youngkin, Raspberry, Pi, Docker, Kubernetes, Go, Golang, Microservice"
+
+
+# Sidebar settings
+    sidebar_about_description_line1 = "Poems inspired by time spent on my allotment."
+    sidebar_about_description_line2 ="And the broader horizons of humour. Shuttling around in life's loom."
+    sidebar_about_description_line3 ="The natural world is worth noticing."
+    sidebar_avatar = "https://live.staticflickr.com/7473/15505448029_87d189ae8c_n.jpg"
+    about_me = true
+
+    featured_tags = false
+    featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+    image_404 = "bob.png"
+    title_404 = "We couldn't find what you were looking for..."
+
+    omit_categories = false
+
+    [[params.addtional_menus]]
+#    title =  "ABOUT"
+#    href =  "/top/about/"
+
+    [params.social]
+#    rss            = true
+    email          = "me@sheenacook.com"
+
+    [params.bookmarks]
